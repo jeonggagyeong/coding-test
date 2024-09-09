@@ -6,7 +6,10 @@ public class Main {
 		// TODO Auto-generated method stub{
 		 Scanner sc = new Scanner(System.in);
 		 String a = sc.next();
-		 System.out.print(a);
+	        if(1 <= a.length() && a.length()<= 1000000){
+	        	System.out.print(a);
+	        }
+		 
 		        	
 		
 		 
