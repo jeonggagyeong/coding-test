@@ -1,3 +1,6 @@
+import java.util.Scanner;
+public class Programmes {
+	
 	private static int gcd(int a, int b) {
 		if(a%b==0) {
 			return b;
@@ -23,3 +26,5 @@
 		
 		sc.close();
 	}
+
+}
